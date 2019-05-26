@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NacIot</string>
+    <string name="humidade">Humidade :</string>
+    <string name="luminosidade">Luminosidade :</string>
+</resources>

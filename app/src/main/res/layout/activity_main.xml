@@ -1,0 +1,58 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp">
+
+
+
+    <TextView
+        android:id="@+id/humidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/humidade"/>
+    <TextView
+        android:id="@+id/txtHumidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_toRightOf="@+id/humidade"
+        android:paddingLeft="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/luminosidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luminosidade"
+        android:layout_below="@+id/humidade"/>
+
+    <TextView
+        android:id="@+id/txtLuminosidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/humidade"
+        android:layout_toRightOf="@id/luminosidade"
+        android:text="0"
+        android:paddingLeft="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnLed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ligar Led"
+        android:layout_below="@id/txtLuminosidade"
+
+        />
+    <Button
+        android:id="@+id/btnBuzzer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ligar Buzzer"
+        android:layout_below="@id/btnLed"/>
+
+
+
+</RelativeLayout>
