@@ -16,7 +16,7 @@ public class IotPojo {
     }
 
     public IotPojo(){
-        
+
     }
 
     public int getId() {
