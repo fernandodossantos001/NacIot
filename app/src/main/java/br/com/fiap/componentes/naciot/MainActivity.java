@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<IotPojo>> call, Response<List<IotPojo>> response) {
                 List<IotPojo> iots = response.body();
+
+                System.out.println(iots.size());
                 for(IotPojo iot : iots){
                     System.out.println(iot.getId());
                 }
@@ -37,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<IotPojo>> call, Throwable t) {
-                System.out.println("Fudeu");
+                System.out.println("Erro ");
+                t.printStackTrace();
             }
         });
 
