@@ -6,7 +6,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface EndPoint {
-    @GET("listar")
+    @GET("iot")
     Call<List<IotPojo>> getIot();
 
 }

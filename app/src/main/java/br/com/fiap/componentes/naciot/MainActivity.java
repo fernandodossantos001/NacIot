@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://localhost:8080/02-oit/rest/iot/")
+                .baseUrl("http://localhost:8080/02-oit/rest/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
