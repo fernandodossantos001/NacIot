@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         if(iot.getLed()==0){
             statusLed = "ligar";
         }else{
-            statusBuzzer="desligar";
+            statusLed="desligar";
         }
 
         if(iot.getBuzzer()==0){
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void ligaDesligaLed(String statusLed){
+    public void ligaDesligaLed(){
 
 
 

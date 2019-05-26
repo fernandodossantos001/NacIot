@@ -51,7 +51,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ligar Buzzer"
-        android:layout_below="@id/btnLed"/>
+        android:layout_below="@id/btnLed"
+        android:onClick="ligaDesligaLed"/>
     <Button
         android:id="@+id/consultarApi"
         android:layout_width="wrap_content"
